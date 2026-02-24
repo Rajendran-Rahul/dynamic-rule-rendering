@@ -66,3 +66,9 @@ To build a flexible and reusable rule configuration system in React that support
 * Conditional field logic
 * Nested rule grouping
 * Validation handling
+
+---
+
+## Run the Project
+npm install
+npm run dev
