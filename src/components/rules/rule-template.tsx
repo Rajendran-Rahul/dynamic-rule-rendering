@@ -35,8 +35,6 @@ const RuleTemplate = ({ form }: RuleTemplateProps) => {
   ) => {
     e.preventDefault();
     if (isException) {
-      console.log("is exception addRow");
-      
       appendException({ category: "", operator: "", value: "" });
       return;
     }
